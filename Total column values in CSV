@@ -1,0 +1,16 @@
+#! /bin/perl
+ 
+Use Text::CSV;
+ 
+My $csv=Text::CSV->new();
+ 
+While (<STDIN>)
+(
+  If($csv->parse($_)) (my $fields=$csv->fields; $sum+=$fields[13];)
+}
+#print “sum\n”; PRINT FULL OUTPUT
+ 
+$sum1 = sprint(“.2f\n”, $sum1;
+ 
+Printf “%.2f\n”, $sum1;
+ 
